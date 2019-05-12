@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="934.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EmployeeController">
+   <children>
+      <AnchorPane layoutY="111.0" prefHeight="521.0" prefWidth="934.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="137.0" layoutY="14.0" prefHeight="50.0" prefWidth="670.0" style="-fx-background-color: #f39c60;" text="Please, type in which order you want to sort employee: id, name or birthDate">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="550.0" layoutY="83.0" mnemonicParsing="false" onAction="#setRes" prefHeight="43.0" prefWidth="184.0" text="Create employee" />
+            <ScrollPane layoutX="61.0" layoutY="142.0" prefHeight="359.0" prefWidth="823.0">
+               <content>
+                  <Label fx:id="result" prefHeight="366.0" prefWidth="833.0" style="-fx-border-color: f39c63;" />
+               </content>
+            </ScrollPane>
+            <TextField fx:id="emp_text" layoutX="201.0" layoutY="83.0" prefHeight="43.0" prefWidth="271.0" promptText="Enter id, name or birthDate" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="299.0" layoutY="28.0" text="MyPROGRAM" textFill="#fffffffa">
+         <font>
+            <Font name="Loma Bold Oblique" size="52.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="847.0" layoutY="12.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #f39c63;" text="EXIT">
+         <font>
+            <Font name="Droid Sans Mono" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#clickBack" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #f39c60;" text="BACK" />
+   </children>
+</AnchorPane>

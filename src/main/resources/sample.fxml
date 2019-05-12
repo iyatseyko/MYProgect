@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="934.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-5.0" layoutY="140.0" prefHeight="501.0" prefWidth="940.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button layoutX="388.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickString" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #f39c63;" text="String Operations">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button layoutX="388.0" layoutY="89.0" mnemonicParsing="false" onAction="#clickMath" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #f39c63;" text="Math Operations">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button layoutX="388.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickEmployee" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #f39c63;" text="Employee operations">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutY="-4.0" prefHeight="43.0" prefWidth="940.0" style="-fx-background-color: #f39c60;" text="Choose one of following operations">
+               <font>
+                  <Font name="Gargi" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="299.0" layoutY="28.0" text="MyPROGRAM" textFill="#fffffffa">
+         <font>
+            <Font name="Loma Bold Oblique" size="52.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="847.0" layoutY="12.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #f39c63;" text="EXIT">
+         <font>
+            <Font name="Droid Sans Mono" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,5 +1,7 @@
 package sample.EmployeeCreation;
 
+import org.apache.poi.openxml4j.opc.internal.FileHelper;
+
 import java.io.*;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -9,12 +11,18 @@ import java.util.Date;
 import java.util.List;
 
 public class ReadAndCreateEmployeeFromCSV {
-    public static final  String BASE_PATH = "/home/irynayatseiko/IdeaProjects/javaStudy/src/main/resources/%s.csv";
+
+    public static final  String BASE_PATH = "%s.csv";
+
     public static List<Employee> readEmployeeDataFromCSV(String fileName) {
         List<Employee> employees = new ArrayList<Employee>();
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader(String.format(BASE_PATH,fileName)));
+
+            InputStream is = FileHelper.class
+                    .getClassLoader().getResourceAsStream(String.format(BASE_PATH,fileName));
+            InputStreamReader isr = new InputStreamReader(is);
+            BufferedReader br = new BufferedReader(isr);
             String line = br.readLine();
 
             while (line != null) {

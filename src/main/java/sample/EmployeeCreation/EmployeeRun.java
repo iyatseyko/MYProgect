@@ -11,8 +11,8 @@ public class EmployeeRun {
         ComparatorFactory factoryComparator = new ComparatorFactory();
         Boolean notErr = true;
         String res = "";
-        List<Employee> employee1 = readEmployeeDataFromCSV("employee");
-        List<Employee> employee2 = readEmployeeDataFromCSV("employee2");
+        List<Employee> employee1 = readEmployeeDataFromCSV("Employee");
+        List<Employee> employee2 = readEmployeeDataFromCSV("Employee2");
 
         switch (sortOrder) {
             case "id":

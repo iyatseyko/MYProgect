@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MYProgect">
+    <output-path>$PROJECT_DIR$/out/artifacts/MYProgect</output-path>
+    <root id="root">
+      <element id="archive" name="MYProgect.jar">
+        <element id="module-output" name="MYProgect" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/sample/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

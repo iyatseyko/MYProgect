@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.birt.runtime:org.eclipse.core.expressions:3.4.401.v20120627-124442">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.core.expressions/3.4.401.v20120627-124442/org.eclipse.core.expressions-3.4.401.v20120627-124442.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.core.expressions/3.4.401.v20120627-124442/org.eclipse.core.expressions-3.4.401.v20120627-124442-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.core.expressions/3.4.401.v20120627-124442/org.eclipse.core.expressions-3.4.401.v20120627-124442-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

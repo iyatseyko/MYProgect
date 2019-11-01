@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
@@ -17,7 +18,7 @@
                </font>
             </Label>
             <Button layoutX="550.0" layoutY="83.0" mnemonicParsing="false" onAction="#setRes" prefHeight="43.0" prefWidth="184.0" text="Create employee" />
-            <ScrollPane layoutX="61.0" layoutY="142.0" prefHeight="359.0" prefWidth="823.0">
+            <ScrollPane layoutX="61.0" layoutY="141.0" maxHeight="2000.0" maxWidth="2000.0" prefHeight="359.0" prefWidth="823.0">
                <content>
                   <Label fx:id="result" prefHeight="366.0" prefWidth="833.0" style="-fx-border-color: f39c63;" />
                </content>
@@ -34,7 +35,13 @@
          <font>
             <Font name="Droid Sans Mono" size="17.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
       </Button>
-      <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#clickBack" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #f39c60;" text="BACK" />
+      <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#clickBack" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #f39c60;" text="BACK">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
    </children>
 </AnchorPane>
